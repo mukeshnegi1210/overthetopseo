@@ -979,6 +979,7 @@
     .truth-factors {
         margin-top: 30px;
         position: relative;
+        width: 1300px;
     }
     .truth-factors:before,
     .truth-factors:after {
@@ -2824,9 +2825,9 @@
     .banner .video-box {
         bottom: -28.8vw;
     }
-    /* .main-banner+section {
-        padding-top: 5vw!important;
-    } */
+    .pg-home .banner .video-box {
+        bottom: -40.8vw;
+    }
     .btn {
         font-size: 14px !important;
     }
