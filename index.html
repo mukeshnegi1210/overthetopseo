@@ -1694,7 +1694,7 @@
             </div>
             <div class="home-truth-content">
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-6 ">
                         <h3>Amateur SEO, Potentially Good SEO or the BEST SEO COMPANY period.
                         </h3>
                         <p>
@@ -1709,16 +1709,18 @@
 
                             </p>
                         </div>
-                        <div class="truth-factors">
-                            <span>WEBSITE TITLE</span> <span>WEBSITE DESCRIPTION</span> <span>KEYWORDS</span>
-                            <span>HEADINGS</span> <span>STATUS</span> <span>ROBOTS</span> <span>SITEMAPS</span>
-                            <span>CODE TO TEXT RATIO</span> <span>INLINE CSS AND JS MINIFICATION</span> <span>SEO
+                        <div class="truth-factors-holder">
+                            <div class="truth-factors">
+                                <span>WEBSITE TITLE</span> <span>WEBSITE DESCRIPTION</span> <span>KEYWORDS</span>
+                                <span>HEADINGS</span> <span>STATUS</span> <span>ROBOTS</span> <span>SITEMAPS</span>
+                                <span>CODE TO TEXT RATIO</span> <span>INLINE CSS AND JS MINIFICATION</span> <span>SEO
                                 FRIENDLY URLS</span> <span>GOOGLE ANALYTICS</span> <span>UNDERSCORES IN LINKS</span>
-                            <span>IMAGE ALT ATTRIBUTE</span> <span>HTML TAGS</span> <span>HTML PAGE SIZE</span>
-                            <span>HTML COMPRESSION/GZIP</span> <span>SITE LOADING SPEED</span> <span>PAGE CACHE</span>
-                            <span>IMAGE OPTIMIZATION</span> <span>URL CANONICALIZATION</span> <span>DIRECTORY BROWSING
+                                <span>IMAGE ALT ATTRIBUTE</span> <span>HTML TAGS</span> <span>HTML PAGE SIZE</span>
+                                <span>HTML COMPRESSION/GZIP</span> <span>SITE LOADING SPEED</span> <span>PAGE CACHE</span>
+                                <span>IMAGE OPTIMIZATION</span> <span>URL CANONICALIZATION</span> <span>DIRECTORY BROWSING
                             </span> <span>SERVER SIGNATURE</span> <span>LIBWWW-PERL ACCESS</span> <span>MOBILE
                                 RESPONSIVENESS</span> <span>SOCIAL MEDIA</span> <span>SCHEMA MARKUP</span>
+                            </div>
                         </div>
                     </div>
 
@@ -7329,6 +7331,12 @@
 
     <!-- custom scripts  -->
     <script src="script/script.js"></script>
+    <script>
+        $(".scroll-vertical,.insights-nav ul,.insights-data-inner").mCustomScrollbar();
+        $(".truth-factors-holder").mCustomScrollbar({
+            axis: "x"
+        });
+    </script>
 
 </body>
 
