@@ -1,0 +1,107 @@
+@font-face {
+    font-family: "Linearicons";
+    src: url("../fonts/Linearicons.eot");
+    /* IE9 Compat Modes */
+    src: url("../fonts/Linearicons.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/Linearicons.otf") format("opentype"), /* Open Type Font */
+    url("../fonts/Linearicons.svg") format("svg"), /* Legacy iOS */
+    url("../fonts/Linearicons.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/Linearicons.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/Linearicons.woff2") format("woff2");
+    /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class*=" icon-"],
+[class^=icon-] {
+    display: inline-block;
+    font-family: 'Linearicons';
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -ms-font-feature-settings: "liga" 1;
+    -o-font-feature-settings: "liga";
+    font-feature-settings: "liga";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.icon-phone:before {
+    content: "\e76a"
+}
+
+.icon-chevron-down:before {
+    content: "\e93a"
+}
+
+.icon-bookmark:before {
+    content: "\e716"
+}
+
+.icon-gift:before {
+    content: "\e7ff"
+}
+
+.icon-chevron-up:before {
+    content: "\e939"
+}
+
+.icon-chevron-left:before {
+    content: "\e93b"
+}
+
+.icon-chevron-right:before {
+    content: "\e93c"
+}
+
+.icon-globe:before {
+    content: "\e886"
+}
+
+.icon-chart:before {
+    content: "\e7fa"
+}
+
+.icon-search:before {
+    content: "\e922"
+}
+
+.icon-earth:before {
+    content: "\e884"
+}
+
+.icon-binoculars:before {
+    content: "\e6a9"
+}
+
+.icon-brush:before {
+    content: "\e61e"
+}
+
+.icon-enter:before {
+    content: "\e797"
+}
+
+.icon-pin:before {
+    content: "\e77a"
+}
+
+.icon-cross:before {
+    content: "\e92a"
+}
+
+.icon-calendar-check:before {
+    content: "\e786"
+}
+
+.icon-archery:before {
+    content: "\e870"
+}
+
+.icon-mail:before {
+    content: "\e696"
+}
