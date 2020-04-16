@@ -2204,8 +2204,36 @@
         font-size: 16px;
     }
     
+    .truth-factors-holder {
+        position: relative;
+    }
+    
+    .truth-factors-holder:before {
+        content: "";
+        display: block;
+        height: 100%;
+        width: 80px;
+        position: absolute;
+        top: 0;
+        z-index: 1;
+        left: 0;
+        background: linear-gradient(90deg, #e7eef7 10px, rgba(231, 238, 247, 0));
+    }
+    
+    .truth-factors-holder:after {
+        content: "";
+        display: block;
+        height: 100%;
+        width: 80px;
+        position: absolute;
+        top: 0;
+        z-index: 1;
+        right: 0;
+        background: linear-gradient(270deg, #e7eef7 10px, rgba(231, 238, 247, 0));
+    }
+    
     .truth-factors span {
-        padding: 5px 12px;
+        padding: 11px 12px;
         display: -ms-inline-flexbox;
         display: inline-flex;
         -ms-flex-pack: center;
@@ -2237,6 +2265,14 @@
         max-width: 730px;
         margin: 15px auto;
         text-align: center;
+    }
+    
+    .truth-factors-holder .mCSB_draggerRail {
+        background: none !important;
+    }
+    
+    .truth-factors-holder .mCSB_dragger_bar {
+        background: none !important;
     }
     
     .why-us {
