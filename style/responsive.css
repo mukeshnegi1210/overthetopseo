@@ -2099,7 +2099,7 @@
         display: none
     }
     .home-testimonials .testimonials__arrow_next {
-        display: none
+        display: none !important;
     }
     .home-find-us {
         padding-top: 73px;
